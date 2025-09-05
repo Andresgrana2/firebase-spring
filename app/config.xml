@@ -1,0 +1,15 @@
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>app.jar</jar>
+    <outfile>Factura.exe</outfile>
+    <errTitle>MiApp Error</errTitle>
+    <classPath>
+        <mainClass>com.pca.invoicefirebase.InvoiceFirebaseApplication</mainClass>
+    </classPath>
+    <jre>
+        <minVersion>21</minVersion> <!-- versión mínima -->
+        <bundledJrePath>C:\Users\LOSNN\.jdks\azul-21.0.8</bundledJrePath> <!-- subcarpeta local -->
+        <runtimeBits>64</runtimeBits> <!-- asegúrate de que coincida con tu JRE -->
+    </jre>
+</launch4jConfig>
